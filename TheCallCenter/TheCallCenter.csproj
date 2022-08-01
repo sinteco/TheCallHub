@@ -25,4 +25,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="client\src\components\" />
+  </ItemGroup>
+
 </Project>

@@ -60,3 +60,5 @@ C:\Users\HP\Downloads\exc\TheCallCenter\TheCallCenter\obj\Debug\net6.0\TheCallCe
 C:\Users\HP\Downloads\exc\TheCallCenter\TheCallCenter\bin\Debug\net6.0\Humanizer.dll
 C:\Users\HP\Downloads\exc\TheCallCenter\TheCallCenter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\HP\Downloads\exc\TheCallCenter\TheCallCenter\bin\Debug\net6.0\libman.json
+C:\Users\HP\Downloads\exc\TheCallCenter\TheCallCenter\bin\Debug\net6.0\client\package-lock.json
+C:\Users\HP\Downloads\exc\TheCallCenter\TheCallCenter\bin\Debug\net6.0\client\package.json

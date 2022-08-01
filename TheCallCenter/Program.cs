@@ -27,6 +27,7 @@ app.UseAuthorization();
 app.UseEndpoints(routes =>
 {
     routes.MapHub<CallCenterHub>("/callcenterhub");
+    routes.MapHub<CallHub>("/api/call-hub");
 });
 
 app.MapControllerRoute(
