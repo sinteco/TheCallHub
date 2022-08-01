@@ -17,6 +17,10 @@ $(document).ready(() => {
     $logBody.empty();
     $.each(calls, (i,c) => addCall(c));
   }
+    const client = new signalR.HubConnectionBuilder().withUrl("/callcenterhub").build();
+    client.on("NewCallRecived", newCall => {
+        addCall(newCall);
+    });
 
   function addCall(call) {
     let template = `<tr>
@@ -43,7 +47,11 @@ $(document).ready(() => {
     $.getJSON("/api/calls")
       .then(res => {
         calls = res;
-        addCalls();
+          addCalls();
+          client.start()
+              .then(() => {
+                  client.invoke("joinCallCenters");
+              });
       })
       .catch(() => {
         $theWarning.text("Failed to get calls...");
