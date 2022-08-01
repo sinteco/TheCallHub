@@ -39,11 +39,12 @@
       ])
     },
         mounted: function () {
-            this.load().then(() => {
-                this.$callHub.client.on("NewCall", (newCall) => {
-                    this.$store.commit("addCall", newCall);
-                })
-            })
+            this.load()
+            //    .then(() => {
+            //    this.$callHub.client.on("NewCall", (newCall) => {
+            //        this.$store.commit("addCall", newCall);
+            //    })
+            //})
         }
   }
 </script>

@@ -2,10 +2,10 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import axios from "axios";
 import router from "./router";
+import callHub from "./callHub";
 
 Vue.use(Vuex);
-
-export default new Vuex.Store({
+let store = new Vuex.Store({
   strict: true,
   state: {
     calls: [],
@@ -45,3 +45,10 @@ export default new Vuex.Store({
     }
   }
 });
+
+callHub.client.on("NewCall", (newCall) {
+    store.commit("addCall", newCall);
+});
+callHub.start();
+
+export default store;
