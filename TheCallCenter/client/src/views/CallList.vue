@@ -38,6 +38,12 @@
         "deleteCall"
       ])
     },
-    mounted: function () { this.load() }
+        mounted: function () {
+            this.load().then(() => {
+                this.$callHub.client.on("NewCall", (newCall) => {
+                    this.$store.commit("addCall", newCall);
+                })
+            })
+        }
   }
 </script>

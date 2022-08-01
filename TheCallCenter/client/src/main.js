@@ -3,7 +3,9 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import filters from "./filters";
+import CallHubPlugin from './callHubPlugin';
 
+Vue.use(CallHubPlugin);
 Vue.config.productionTip = false;
 filters();
 
