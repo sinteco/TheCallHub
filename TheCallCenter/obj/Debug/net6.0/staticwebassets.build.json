@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "USKpLgCrIMnjZXWBKbPMfD7BdS0RcIM8FDyFb8DYcPI=",
+  "Hash": "OeYpvdxPDoeOnqbMDp6Gvfk9R7101Q7svtmWRd/HtpI=",
   "Source": "TheCallCenter",
   "BasePath": "_content/TheCallCenter",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Downloads\\exc\\TheCallCenter\\TheCallCenter\\wwwroot\\js\\calls.js",
+      "SourceId": "TheCallCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Downloads\\exc\\TheCallCenter\\TheCallCenter\\wwwroot\\",
+      "BasePath": "_content/TheCallCenter",
+      "RelativePath": "js/calls.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\calls.js"
     },
     {
       "Identity": "C:\\Users\\HP\\Downloads\\exc\\TheCallCenter\\TheCallCenter\\wwwroot\\js\\site.js",
@@ -1069,6 +1086,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Downloads\\exc\\TheCallCenter\\TheCallCenter\\wwwroot\\lib\\moment\\min\\moment.min.js",
+      "SourceId": "TheCallCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Downloads\\exc\\TheCallCenter\\TheCallCenter\\wwwroot\\",
+      "BasePath": "_content/TheCallCenter",
+      "RelativePath": "lib/moment/min/moment.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\moment\\min\\moment.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Downloads\\exc\\TheCallCenter\\TheCallCenter\\wwwroot\\lib\\moment\\moment.js",
+      "SourceId": "TheCallCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Downloads\\exc\\TheCallCenter\\TheCallCenter\\wwwroot\\",
+      "BasePath": "_content/TheCallCenter",
+      "RelativePath": "lib/moment/moment.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\moment\\moment.js"
     }
   ]
 }
